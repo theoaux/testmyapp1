@@ -1,0 +1,146 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page" data-theme="a" style="background-image:url(images/ab7.jpg)">
+	<div data-role="header">
+		<h1>Home</h1>
+	</div>
+   	 <div data-role="fieldcontain">
+    	<div style="width: 50%; font-size:11px; padding:4px; margin-top: 100px; margin-left:40%">
+       <select name="selectmenu" id="selectmenu">
+        <option value="option1">select option</option>
+        <option value="option2">Continent</option>
+        <option value="option3">Country</option>
+        <option value="option4">City</option>
+        <option value="option5">School</option>
+      </select>
+      	</div>
+      </div>
+   		 <div style="width:40%; margin-left:34%; font-size:12">
+      <label for="textinput"></label>
+      <input type="text" name="textinput" id="textinput" value=""  />
+   		 </div>
+   		<div style="width: 10%; margin-left:64%; font-size:10px">
+    <a href="#page2" data-role="button" data-icon="arrow-r" data-iconpos="right">enter</a>
+        </div>
+    
+    
+	<div data-role="footer" data-position="fixed">
+		<h4>
+        <div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">About Us</a></li>
+            <li><a href="#page3">Photos</a></li>
+			<li><a href="#page4">Testimonies</a></li>
+            <li><a href="#page5">Programs</a></li>
+		</ul>		
+	</div>
+        </h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2" data-theme="a">
+	<div data-role="header"><a href="#page" data-role="button" data-icon="back" data-iconpos="left">Back</a>
+		<h1>About Us</h1>
+	</div>
+	<div data-role="content">
+      <div class="ui-grid-a">
+     <div class="ui-block-a">
+      <img src="images/ab7.jpg" width="200" height="250" alt="Pastor">
+      <img src="images/ab2.jpg" width="200" height="250" alt="lca"> 
+     </div>
+     <div class="ui-block-b">
+        Believers' LoveWorld Campus Ministry is the youth 			        arm of Believers' LoveWorld, a unique and dynamic 	        ministry called by God to play a chief role in the        end time move of the Spirit. Our Vision is to carry        God's divine presence to all the people of the        world, demonstrating in them the character of the        Spirit.
+ 
+        The President of the Believer's LoveWorld Inc. ,        Pastor Chris Oyakhilome, the host of the popular TV        healing/miracle program " Atmosphere for Miracles "        and his wife Pastor Anita Oyakhilome, have a        passion to see lives transformed by the power of       God. Through various outreach crusades,magazines,       audio and video tapes and books including the best       selling daily devotional " Rhapsody of Realities ",       they have brought the reality of the divine life to       many. Millions of young people across the globe have       been affected by this ministry, many of whom have       dedicated their lives to reaching other young people       in the world.
+      </div>
+      </div>
+	 </div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3" data-theme="a">
+	<div data-role="header"><a href="#page" data-role="button" data-icon="back" data-iconpos="left">Back</a>
+		<h1>Photos</h1>
+	</div>
+	<div data-role="content">
+	  <div class="ui-grid-a" align="center">
+	    <div class="ui-block-a">
+        <img src="images/ab7.jpg" width="250" height="303">
+        <img src="images/ab5.jpg" width="250" height="303">
+        <img src="images/ab4.jpg" width="250" height="303"></div>
+	    <div class="ui-block-b">
+        <img src="images/ab2.jpg" width="250" height="303">
+        <img src="images/ab4.jpg" width="250" height="303">
+        <img src="images/ab7.jpg" width="250" height="303"></div>
+        </div>
+      </div>
+      
+      </div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4" data-theme="a">
+	<div data-role="header"><a href="#page" data-role="button" data-icon="back" data-iconpos="left">Back</a>
+		<h1>Testimonies</h1>
+	</div>
+	<div data-role="content">
+      <div class="ui-grid-a">
+        <div class="ui-block-a"><img src="images/ab7.jpg" width="150" height="200" style="margin-left:50%"></div>
+        <div class="ui-block-b">This is my testimony</div>
+        <div class="ui-block-a"><img src="images/ab4.jpg" width="150" height="200" style="margin-left:50%"></div>
+        <div class="ui-block-b">This is my testimony</div>
+        <div class="ui-block-a"><img src="images/ab5.jpg" width="150" height="200" style="margin-left:50%"></div>
+        <div class="ui-block-b">This is my testimony</div>
+        <div class="ui-block-a"><img src="images/ab7.jpg" width="150" height="200" style="margin-left:50%"></div>
+        <div class="ui-block-b">This is my testimony</div>
+        <div class="ui-block-a"><img src="images/ab5.jpg" width="150" height="200" style="margin-left:50%"></div>
+        <div class="ui-block-b">This is my testimony</div>
+      </div>
+ 	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page5" data-theme="a">
+	<div data-role="header"><a href="#page" data-role="button" data-icon="back" data-iconpos="left">Back</a>
+		<h1>Programs</h1>
+	</div>
+	<div data-role="content">
+      
+      <div data-role="collapsible-set" style=" font-size:12px; margin-top:120px; margin-left:38%; width:25%">
+        <div data-role="collapsible">
+          <h3>Upcoming Programs</h3>
+           <a href=""><p>Youth Conference 2013</p></a>
+           <a href=""><p>IPPC 2013</p></a>
+        </div>
+        <br><div data-role="collapsible">
+          <h3>Program Report</h3>
+          <a href=""><p>Zonal Easter Conference 2013</p></a>
+          <a href=""><p>CLC 2013 with Pastor T.T Edun</p></a>         
+        </div>
+     </div> 
+
+  </div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+</body>
+</html>
